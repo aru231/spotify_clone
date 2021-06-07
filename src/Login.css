@@ -1,0 +1,33 @@
+.login{
+    /* display: grid;
+    place-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    
+}
+*{
+    background-color: black;
+}
+
+.login img{
+    height:100%;
+    width: 40%;
+    align-self: center;
+}
+
+.login a{
+    padding:20px;
+    border-radius: 99px;
+    border: 2px solid;
+    background-color: #1db954;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    width: 250px;
+    color: white;
+    text-decoration: none;
+    align-self: center;
+    
+}
